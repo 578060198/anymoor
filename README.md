@@ -1,2 +1,4 @@
 # anymoor
-Tiny NodeJs Static Web Server
+Tiny NodeJS Static Web Server
+
+## 使用方法
