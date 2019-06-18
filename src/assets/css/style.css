@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 30px;
+}
+a{
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  text-decoration: none;
+}
+img{
+  display: inline-block;
+  vertical-align: middle;
+}

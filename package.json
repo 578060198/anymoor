@@ -1,0 +1,32 @@
+{
+  "name": "anymoor",
+  "version": "0.1.0",
+  "description": "Tiny NodeJS Static Web Server",
+  "main": "src/app.js",
+  "bin": {
+    "anymoor": "bin/anymoor"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "super": "supervisor src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/578060198/anymoor.git"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/578060198/anymoor/issues"
+  },
+  "homepage": "https://github.com/578060198/anymoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.1.2",
+    "yargs": "^13.2.4"
+  }
+}
