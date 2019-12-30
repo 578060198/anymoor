@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node src/app.js",
+    "debug": "nodemon --inspect bin/anymoor",
     "super": "supervisor src/app.js"
   },
   "repository": {
@@ -26,7 +27,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.5.3",
     "yargs": "^13.2.4"
   }
 }
